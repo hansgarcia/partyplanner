@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Organizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Upcoming Parties</h1>
+    <ul id="partyList">
+    </ul>
+    <h2>Add New Party</h2>
+
+    <form id="partyForm">
+        <label for="partyName">Party Name:</label>
+        <input type="text" id="partyName" required><br><br>
+
+        <label for="partyDate">Date:</label>
+        <input type="date" id="partyDate" required><br><br>
+
+        <label for="partyTime">Time:</label>
+        <input type="time" id="partyTime" required><br><br>
+
+        <label for="partyLocation">Location:</label>
+        <input type="text" id="partyLocation" required><br><br>
+
+        <label for="partyDescription">Description:</label>
+        <textarea id="partyDescription" rows="4" required></textarea><br><br>
+
+        <button type="submit">Add Party</button>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
